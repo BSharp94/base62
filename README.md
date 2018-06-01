@@ -7,7 +7,7 @@ Shoutout to Ghost1face for adding an implementation in .NET This code is largely
 
 ## Usage
 ```
-import  Base62Converter from '../Base62Converter';
+import  Base62Converter from 'Base62Converter';
 
 ...
 
