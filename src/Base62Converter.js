@@ -51,5 +51,3 @@ function BaseConvert(source, sourceBase, targetBase) {
   }
   return result;
 }
-
-export default Base62Converter;
