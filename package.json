@@ -5,7 +5,9 @@
   "main": "Base62Converter.js",
   "scripts": {
     "test": "mocha test/test.js --compilers js:babel-core/register",
-    "populate": "node_modules/babel-cli/bin/babel-node.js"
+    "populate": "node_modules/babel-cli/bin/babel-node.js",
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "Base62",

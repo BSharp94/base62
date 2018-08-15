@@ -1,3 +1,12 @@
 {
-  "presets": ["es2015"]
+  "presets": [
+    ["env", { 
+        "modules": false, 
+        "useBuiltins": true,
+        "targets": {
+            "chrome": 40,
+            "browsers": [ "last 3 versions", "safari 7", "not ie <= 9"]
+        }
+    }]
+  ]
 }
