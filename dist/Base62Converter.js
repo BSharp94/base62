@@ -5,7 +5,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var DEFAULT_CHARACTER_SET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 var INVERTED_CHARACTER_SET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-var Base62Converter = function () {
+module.exports = function () {
   function Base62Converter() {
     var charset = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : DEFAULT_CHARACTER_SET;
 
@@ -38,8 +38,6 @@ var Base62Converter = function () {
 }();
 
 // Private 
-
-
 function EncodeArr(arr, charset) {
   var converted = BaseConvert(arr, 256, 62);
   return converted.map(function (c) {
