@@ -2,7 +2,7 @@
   "name": "base62",
   "version": "1.0.0",
   "description": "A Converter for base62 conversion in web applications.",
-  "main": "Base62Converter.js",
+  "main": "./dist/Base62Converter.js",
   "scripts": {
     "test": "mocha test/test.js --compilers js:babel-core/register",
     "populate": "node_modules/babel-cli/bin/babel-node.js",

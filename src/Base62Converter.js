@@ -1,7 +1,7 @@
 const DEFAULT_CHARACTER_SET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 const INVERTED_CHARACTER_SET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         
-class Base62Converter {
+module.exports = class Base62Converter {
 
   constructor(charset = DEFAULT_CHARACTER_SET) {
     this.charset = DEFAULT_CHARACTER_SET;
